@@ -1,0 +1,61 @@
+/* Need help:
+    - cursor under card/at button
+    - random break in released in line*/
+
+html {
+    cursor: url('./assets/Soot_balls.png'), pointer;
+}
+
+body {
+    background-image: url(./assets/backgroundSky.png);
+    background-color: #1f6091;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+}
+
+.header-container {
+    background-image: url("./assets/navbarImage.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    max-width: 900px;
+    height: 200px;
+    background-color: #1f6091;
+    padding-top: 55px;
+}
+
+.header-text {
+    font-size: 16pt;
+}
+
+.main-container {
+    max-width: 923px;
+    height: 200px;
+    border-radius: 0%;
+}
+
+#navImage {
+    display: flex;
+    padding-left: 575px;
+    padding-bottom: 25px;
+    top: 5px;
+}
+
+#moviePoster {
+    position: relative;
+    width: 300px;
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-right: 15px;
+    padding-bottom: 35px;
+}
+
+#cardInfo {
+    position: relative;
+    display: flex;
+    left: 150px;
+}
+
+
