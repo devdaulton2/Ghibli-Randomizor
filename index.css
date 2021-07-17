@@ -4,6 +4,7 @@
 
 html {
     cursor: url('./assets/Soot_balls.png'), pointer;
+    zoom: .80;
 }
 
 body {
